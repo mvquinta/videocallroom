@@ -37,8 +37,11 @@ export default function Room() {
 
             <p className='mt-20 mb-20 text-center text-3xl font-black'>
                 Share this link to join the room: <br />
-                <a href={`/room/${id}/join`} className='underline'>
+                {/* <a href={`/room/${id}/join`} className='underline'>
                     http://localhost:3000/room/{id}/join
+                </a> */}
+                <a href={`/room/${id}/join`} className='underline'>
+                    https://videocallroom.vercel.app/room/{id}/join
                 </a>
             </p>
 
